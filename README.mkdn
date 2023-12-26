@@ -9,7 +9,7 @@ Make sure you are not using any audio effect configuration in your device trees.
 <Include href="media_codecs_dolby_audio.xml" />
 ```
 
-To build, inherit the dolby config by adding this in your device's makefile :-
+To build, add the dolby effects in your device's audio effects config then inherit the dolby config by adding this in your device's makefile :-
 
 ```bash
 $(call inherit-product, hardware/dolby/dolby.mk)
