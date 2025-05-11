@@ -25,4 +25,13 @@ android_app {
         "androidx.preference_preference",
         "com.google.android.material_material",
     ],
+
+    required: ["preinstalled-packages-platform-dolby.xml"],
+    }
+
+    prebuilt_etc {
+        name: "preinstalled-packages-platform-dolby.xml",
+        src: "preinstalled-packages-platform-dolby.xml",
+        sub_dir: "sysconfig",
+        system_ext_specific: true,
 }
