@@ -49,6 +49,7 @@
                 <Limit name="sample-rate" ranges="48000" />
                 <Limit name="bitrate" range="32000-6144000" />
             </Type>
+            <Attribute name="software-codec" />
         </MediaCodec>
         <!-- DOLBY_UDC END -->
     </Decoders>
